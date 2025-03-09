@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Web Development Services</title>
+ <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">WebCraft Pro</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Professional Website Development</h1>
+        <p>Transform your online presence with custom-built websites</p>
+    </section>
+
+    <div class="packages">
+        <div class="package">
+            <h2>Basic Package</h2>
+            <div class="price">₹499</div>
+            <ul>
+                <li>3 Pages</li>
+                <li>Responsive Design</li>
+                <li>Contact Form</li>
+                
+            </ul>
+            <button onclick="scrollToContact()">Get Started</button>
+        </div>
+
+        <div class="package">
+            <h2>Business Package</h2>
+            <div class="price">₹799</div>
+            <ul>
+                <li>5 Pages</li>
+                <li>E-commerce Integration</li>
+                
+            </ul>
+            <button onclick="scrollToContact()">Get Started</button>
+        </div>
+
+        <div class="package">
+            <h2>Premium Package</h2>
+            <div class="price">₹999</div>
+            <ul>
+                <li>Unlimited Pages</li>
+                <li>Custom design</li>
+            </ul>
+            <button onclick="scrollToContact()">Get Started</button>
+        </div>
+    </div>
+
+    <div class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form id="emailForm" onsubmit="sendEmail(event)">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <select name="package" required>
+                <option value="">Select Package</option>
+                <option value="basic">Basic Package</option>
+                <option value="business">Business Package</option>
+                <option value="premium">Premium Package</option>
+            </select>
+            <textarea name="message" placeholder="Project Details" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="margin-top: 20px; text-align: center;">
+            Or email us directly at: <a href="mailto:spideyprajith@gmail.com">spideyprajith@gmail.com</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>© 2024 WebCraft Pro. All rights reserved.</p>
+    </footer>
+<script src="./s.js"></script>
+   
+</body>
+</html>
